@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/logo.png" rel="icon" type="image/x-icon">
+  <title>ClassIQ | Sign In</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-page">
+  <header class="site-header">
+   
+    <a class="brand" href="index.html">
+          <img src="/assets/logo.png" alt="ClassIQ Logo" />
+       <span>ClassIQ</span></a>
+    <nav class="main-nav"><a href="index.html#courses">Cources</a></nav>
+    <div class="header-actions"><a class="btn btn-dark btn-small" href="signin.html">Login</a><a class="btn btn-dark btn-small" href="signup.html">SignUp</a></div>
+  </header>
+
+  <main class="auth-main">
+    <section class="auth-card">
+      <h1>Login</h1>
+      <form data-auth-form novalidate>
+        <input id="email" name="email" type="email" placeholder="Enter Your Email" autocomplete="email">
+        <input id="password" name="password" type="password" placeholder="Enter Your Password" autocomplete="current-password">
+        <button class="btn btn-green btn-full" type="submit">SignUp</button>
+      </form>
+      <p class="switch-auth">Don't have an account? <a href="signup.html">SignUp</a></p>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
